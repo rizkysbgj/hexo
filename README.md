@@ -17,24 +17,42 @@ Hexo adalah sebuah SSG (static generator) atau program mirip CMS yang digunakan 
 ##### Langkah instalasi dalam CLI :
 
 - Pertama - tama praktikan melakukan login ke server menggunakan ssh :
-`$ ssh student@localhost -p 2222`
+```
+$ ssh student@localhost -p 2222
+```
 - Lalu memasukkan password : student.
 - Setelah itu praktikan meng-install nodejs dengan mendownload file .deb  versi 6.x dengan metode cURL :
-`$ curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -`
+```
+$ curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
+```
 - setelah selesai mendownload file praktikan menginstallnya :
-`$ sudo apt-get install nodejs`
+```
+$ sudo apt-get install nodejs
+```
 - setelah node js terinstall, lalu praktikan meng install npm (node package manager ) :
-`$ sudo apt-get install npm`
+```
+$ sudo apt-get install npm
+```
 - Setelah menginstall npm dan nodeJS, lalu prak tikan meng install cli hexo :
-`$ npm install -g hexo-cli`
+```
+$ npm install -g hexo-cli
+```
 - Selelah CLI Hexo ter install lalu praktikan membuat projek folder hexo pada server dengan mengetikkan command seperti berikut : 
-`$ hexo init blog`
+```
+$ hexo init blog
+```
 - Setelah hexo ter install maka kita masuk ke folder projek hexo kita melalui server :
-`$ cd blog`
+```
+$ cd blog
+```
 - Lalu install hexo secara local di folder projek dengan npm :
-`$ npm install hexo --save`
+```
+$ npm install hexo --save
+```
 - Lalu start server hexo kita :
-`$ hexo server`
+```
+$ hexo server
+```
 - Kemudian hexo kita akan di running di server
 ![](https://i.imgur.com/sb8y9YV.png)
 - lalu kita akses di sisi client melalui http://localhost:8888/, yang dimana port 8888 telah disesuaikan httpnya ke port 4000 pada server.
