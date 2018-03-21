@@ -84,7 +84,7 @@ Plugin tema
 - ###### Perbedaan aplikasi Hexo dan aplikasi sejenisnya :
 Ada aplikasi sejenis yang juga menggunakan SSG yaitu Hugo. Hugo sendiri untuk men-deploy website yang sudah jadi ke hosting pribadi harus manual menggunakan FTP. Lain halnya dengan Hexo, aplikasi SSG yang dibuat menggunakan nodejs ini memiliki plugin yang bisa deploy website dengan banyak cara salah satunya dengan FTP. Sama seperti halnya jika push file melalui metode git, deploy file website menggunakan plugin yang disediakan Hexo membuat blogging jadi lebih mudah.
 
-	Menggunakan Hexo (atau statis website lainnya) memberikan keuntungan dalam hal SEO karena dengan menggunakan website statis, kita bisa memanfaatkan hosting gratis yang space kecil (antara 5mb-10mb). Website statis yang dihasilkan oleh Hugo dan Hexo juga bisa digunakan pada server yang tidak mendukung PHP server seperti Apache, Nginx, Litespeed, dll.
+Menggunakan Hexo (atau statis website lainnya) memberikan keuntungan dalam hal SEO karena dengan menggunakan website statis, kita bisa memanfaatkan hosting gratis yang space kecil (antara 5mb-10mb). Website statis yang dihasilkan oleh Hugo dan Hexo juga bisa digunakan pada server yang tidak mendukung PHP server seperti Apache, Nginx, Litespeed, dll.
 
 ##### Referensi
 Eka, Putra. “Berpusing Ria dengan Hexo”. 27 Juli 2017. http://blog.putraeka.org/post
